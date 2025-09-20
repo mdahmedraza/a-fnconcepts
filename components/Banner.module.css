@@ -1,0 +1,70 @@
+.banner_parent {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  /* background-image: url("../public/assets/projects/insta_gram.png"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner_child {
+  padding: 30px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  background-color: #00000033;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  max-width: 800px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.banner_child h2{
+  color: #fff;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.banner_child p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .banner_parent{
+    height: 800px;
+  }
+  .banner_child{
+    left: 5%;
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  .banner_parent{
+    height: 600px;
+  }
+  .banner_child{
+    left: 0%;
+    top: 12%;
+  }
+
+  .banner_child h2{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .banner_child p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+}

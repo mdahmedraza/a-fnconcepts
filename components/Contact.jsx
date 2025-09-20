@@ -1,5 +1,5 @@
 import { UserIcon, EnvelopeIcon, ArrowUpTrayIcon } from '@heroicons/react/24/solid'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Image from 'next/image';
 import Link from 'next/link';
 import {useState} from 'react';
@@ -62,7 +62,7 @@ const Contact=()=>{
         setEnteredMessage(event.target.value);
     }
     return(
-        <div id='contact' className='w-full lg:h-screen'>
+        <div id='contact' className='p-2 w-full '>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
                     Contact
@@ -95,10 +95,7 @@ const Contact=()=>{
                                         <FaLinkedinIn className='h-5 w-5' />
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <UserIcon className='h-5 w-5' />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <EnvelopeIcon className='h-5 w-5' />
+                                        <FaTwitter className='h-5 w-5' />
                                     </div>
                                 </div>
                             </div>

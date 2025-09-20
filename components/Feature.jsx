@@ -25,7 +25,7 @@ const Feature=()=>{
     return(
         <div className='w-full lg:h-auto p-2'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] p-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px]">
                     {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] p-5 */}
                      {stats.map(({ icon, heading, para, list }, idx) => (
                         <div

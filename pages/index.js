@@ -10,13 +10,11 @@ import Services from '@/components/Services';
 import Partners from '@/components/Partners';//
 import Projects from '../components/Projects';
 import Contact from '@/components/Contact';
+import Footer from '@/components/footer/Footer';
 
 function HomePage(){
   return(
-    <div>
-      <Head>
-        <title>ahmed | full-stack developer</title>
-      </Head>
+    <>
       <Navbar />
       <Main />
       <About />
@@ -28,7 +26,8 @@ function HomePage(){
       <Partners />
       <Projects />
       <Contact />
-    </div>
+      <Footer />
+    </>
   )
 }
 export default HomePage;

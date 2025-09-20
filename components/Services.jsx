@@ -1,6 +1,6 @@
 
 import {
-  Globe,          // Website
+  Code,          // Website
   Smartphone,     // App
   Bot,            // Generative AI
   Megaphone,      // Digital Marketing
@@ -12,7 +12,7 @@ import Button from "./Button";
 
 const stats = [
     {
-        icon: <Globe size={40} />,
+        icon: <Code size={40} />,
         heading: "Website Development",
         para: "Custom, responsive websites built with modern technologies like React, Node.js, and cloud deployment.",
         list: ["MERN Stack", "Responsive Design", "SEO Optimized"]
@@ -58,7 +58,7 @@ const Services=()=>{
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
                 <h1 className='py-4 text-gray-700'>Our <span className='text-[#5651e5]'>Services</span></h1>
                     <p className='py-2 text-gray-600 text-[25px]'>Comprehensive IT solutions designed to elevate your business and<br />drive digital transformation</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] p-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px]">
                     {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <p>Box 1</p>
                     </div>
