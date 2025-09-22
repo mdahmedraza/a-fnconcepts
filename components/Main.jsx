@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="relative w-full h-screen text-center bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] overflow-hidden flex items-center"
+      className="relative w-full h-screen text-center bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] overflow-hidden flex items-center -mb-[5px]"
     >
       {/* Subtle Grid Background */}
       <div className="absolute inset-0 opacity-20 bg-[linear-gradient(45deg,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(-45deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[length:40px_40px]"></div>

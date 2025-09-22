@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ProjectItem=({title, backgroundImg, projectUrl, skill})=>{
     return(
-        <div className="relative flex items-center justify-center h-64 w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+        <div className="relative flex items-center justify-center h-64 w-full rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
   {/* Background Image */}
   <Image
     src={backgroundImg}
