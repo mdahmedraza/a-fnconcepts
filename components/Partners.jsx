@@ -1,4 +1,8 @@
 import Image from "next/image";
+import p1 from '../assets/p1.jpg';
+import p2 from '../assets/p2.jpg';
+import p3 from '../assets/p3.jpg';
+import p4 from '../assets/p4.jpg';
 const Partners=({head})=>{
     return(
         <div id='skills' className='w-full p-2 h-auto' style={{margin: '2rem 0px'}}>
@@ -10,7 +14,7 @@ const Partners=({head})=>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid justify-center items-center'>
                             <div className='m-auto'>
-                                <img className='rounded-xl' src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt='about me' />
+                                <Image className='rounded-xl' src={p1} alt='about me' />
                             </div>
                             
                         </div>
@@ -18,7 +22,7 @@ const Partners=({head})=>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid justify-center items-center'>
                             <div className='m-auto'>
-                                <img className='rounded-xl' src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt='about me' />
+                                <Image className='rounded-xl' src={p2} alt='about me' />
                             </div>
                             
                         </div>
@@ -26,7 +30,7 @@ const Partners=({head})=>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid justify-center items-center'>
                             <div className='m-auto'>
-                                <img className='rounded-xl' src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt='about me' />
+                                <Image className='rounded-xl' src={p3} alt='about me' />
                             </div>
                             
                         </div>
@@ -34,7 +38,7 @@ const Partners=({head})=>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid justify-center items-center'>
                             <div className='m-auto'>
-                                <img className='rounded-xl' src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt='about me' />
+                                <Image className='rounded-xl' src={p4} alt='about me' />
                             </div>
                             
                         </div>

@@ -1,114 +1,44 @@
 
-// import { Star } from "lucide-react";
-
-// import Button from "./Button";
-
-// const stats = [
-//     {
-//         image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-//         heading: "Priya Sharma",
-//         profession: "Founder, StartUp Hub",
-//         para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
-//     },
-//     {
-//         image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-//         heading: "Priya Sharma",
-//         profession: "Founder, StartUp Hub",
-//         para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
-//     },
-//     {
-//         image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-//         heading: "Priya Sharma",
-//         profession: "Founder, StartUp Hub",
-//         para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
-//     },
-//     {
-//         image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-//         heading: "Priya Sharma",
-//         profession: "Founder, StartUp Hub",
-//         para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
-//     },
-//     {
-//         image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-//         heading: "Priya Sharma",
-//         profession: "Founder, StartUp Hub",
-//         para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
-//     },
-//     {
-//         image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-//         heading: "Priya Sharma",
-//         profession: "Founder, StartUp Hub",
-//         para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
-//     },
-//   ];
-
-
- 
-
-// const Client=()=>{
-//     return(
-//         <div className='w-full h-auto p-2'>
-//             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-//                 <h1 className='py-4 text-gray-700'>Our <span className='text-[#5651e5]'>Happy Clients</span></h1>
-//                     <p className='py-2 text-gray-600 text-[25px]'>Don't just take our word for it. Here's what our clients say about working <br />with FNConcepts.</p>
-//                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px]">
-
-//                      {stats.map(({ image, heading, profession, para }, idx) => (
-                      
-//                         <div key={idx} className="max-w-md mx-auto bg-white rounded-2xl shadow-md p-6">
-//       <div className="flex items-center gap-4 mb-4">
-//         <img
-//           src={image}
-//           alt="Priya Sharma"
-//           className="w-14 h-14 rounded-full object-cover"
-//         />
-//         <div>
-//           <h3 className="font-bold text-gray-900">{heading}</h3>
-//           <p className="text-sm text-gray-500">{profession}</p>
-//         </div>
-//       </div>
-
-//       <div className="flex gap-1 mb-4 text-purple-500">
-//         {[...Array(5)].map((_, i) => (
-//           <Star key={i} size={18} fill="currentColor" stroke="none" />
-//         ))}
-//       </div>
-
-//       <p className="text-gray-600 italic text-center">
-//         {para}
-//       </p>
-//     </div>
-//                     ))}
-
-
-
-                     
-
-
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-// export default Client;
-
 
 import { Star } from "lucide-react";
 
 const stats = [
+
   {
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?...",
-    heading: "Priya Sharma",
-    profession: "Founder, StartUp Hub",
-    para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
+    name: "Amelia Brown",
+    image: "https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?cs=srgb&dl=pexels-olly-3756681.jpg&fm=jpg",
+    role: "Product Manager, NovaTech",
+    review:
+      "FNConcepts delivered a seamless app experience that boosted our customer engagement. Their attention to detail was truly impressive.",
   },
   {
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?...",
-    heading: "Priya Sharma",
-    profession: "Founder, StartUp Hub",
-    para: '"The level of support and attention to detail from ITGenixs is exceptional. They truly understand business needs and deliver accordingly."'
+    name: "Ravi Patel",
+    image: "https://static.vecteezy.com/system/resources/previews/024/354/252/non_2x/businessman-isolated-illustration-ai-generative-free-photo.jpg",
+    role: "Founder, GreenCore Solutions",
+    review:
+      "The AI tools developed by FNConcepts helped us optimize workflows and cut costs significantly. A game-changer for our business.",
   },
-  // add more...
+  {
+    name: "Emily Carter",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQal-zoU3mjqRLlaGfm4m4b3OWZAyv6BYvJXQ&s",
+    role: "Head of Marketing, Visionary Media",
+    review:
+      "Their design team created visuals that elevated our brand identity. Creative, responsive, and always exceeding expectations.",
+  },
+  {
+    name: "Daniel Kim",
+    image: "https://t4.ftcdn.net/jpg/03/25/73/59/360_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg",
+    role: "CTO, CloudSphere Inc.",
+    review:
+      "FNConcepts built a scalable, secure platform for us that can handle rapid growth. Their technical expertise is unmatched.",
+  },
+  {
+    name: "Sofia Lopez",
+    image: "https://t3.ftcdn.net/jpg/01/91/85/06/360_F_191850653_IkzN9vZTtOtJ8NTKLKOp8PlaY8iCk6Ls.jpg",
+    role: "CEO, BrightPath Academy",
+    review:
+      "From web development to digital marketing, FNConcepts has been our trusted partner. Professional and reliable at every step.",
+  },
 ];
 
 const Client = () => {
@@ -121,14 +51,14 @@ const Client = () => {
         <p className="py-2 text-gray-600 text-[25px]">
           Don't just take our word for it. Here's what our clients say about
           working <br />
-          with FNConcepts.
+          with FN concepts.
         </p>
 
         {/* Carousel wrapper */}
         <div className="relative w-full overflow-hidden">
           {/* Moving track */}
           <div className="flex gap-6 animate-scroll">
-            {stats.concat(stats).map(({ image, heading, profession, para }, idx) => (
+            {stats.concat(stats).map(({ image, name, role, review }, idx) => (
               <div
                 key={idx}
                 className="min-w-[300px] max-w-md bg-white rounded-2xl shadow-md p-6"
@@ -137,12 +67,12 @@ const Client = () => {
                 <div className="flex items-center gap-4 mb-4">
                   <img
                     src={image}
-                    alt={heading}
+                    alt="sdf"
                     className="w-14 h-14 rounded-full object-cover"
                   />
                   <div>
-                    <h3 className="font-bold text-gray-900">{heading}</h3>
-                    <p className="text-sm text-gray-500">{profession}</p>
+                    <h3 className="font-bold text-gray-900">{name}</h3>
+                    <p className="text-sm text-gray-500">{role}</p>
                   </div>
                 </div>
 
@@ -152,7 +82,7 @@ const Client = () => {
                   ))}
                 </div>
 
-                <p className="text-gray-600 italic text-center">{para}</p>
+                <p className="text-gray-600 italic text-center">{review}</p>
               </div>
             ))}
           </div>

@@ -90,17 +90,17 @@ const Navbar=()=>{
                             </p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300' onClick={() => window.location.href = "https://www.facebook.com/share/171YeEd3Ja/"}>
                                     <FaFacebookF className='h-5 w-5' />
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'  onClick={() => window.location.href = "https://www.instagram.com/futurenaviconcepts?utm_source=qr&igsh=dWJqNmJ3Z3Q2d3Ju"}>
                                     <FaInstagram className='h-5 w-5' />
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn className='h-5 w-5' />
+                                    <FaLinkedinIn className='h-5 w-5'  onClick={() => window.location.href = "https://www.linkedin.com/in/future-navi-concepts-b04197346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} />
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaTwitter className='h-5 w-5' />
+                                    <FaTwitter className='h-5 w-5'  onClick={() => window.location.href = "https://x.com/FN__Concepts?t=fo41DFkj_KV9fu3VW6oe_g&s=08"} />
                                 </div>
                             </div>
                         </div>

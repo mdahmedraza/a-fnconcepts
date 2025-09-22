@@ -8,7 +8,7 @@ const About = () => {
         {/* ✅ Text takes 2/3 on desktop, full width on mobile */}
         <div className="md:col-span-2">
           <h1 className="py-4 text-gray-700">
-            About <span className="text-[#5651e5]">FNConcepts</span>
+            About <span className="text-[#5651e5]">FN concepts</span>
           </h1>
           <p className="py-2 text-gray-600 text-[25px]">
             Founded in 2025, FNConcepts Pvt. Ltd. is dedicated to providing

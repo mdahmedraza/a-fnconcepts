@@ -21,7 +21,7 @@ const Contact=()=>{
             subject: enteredSubject,
             message: enteredMessage
         }
-        axios.post("http://localhost:5000/api/users", data)
+        axios.post("https://a-fnconcepts-server.onrender.com/api/users", data)
         .then(response=>{
             alert("Data Send Successfully")
         })
@@ -69,38 +69,7 @@ const Contact=()=>{
                 </p>
                 <h2 className='py-4'>get in touch</h2>
                 <div className='grid lg:grid-cols-5 gap-8'>
-                    {/*left side. */}
-                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
-                        <div className='lg:p-4 h-full'>
-                            {/* <div>
-                                <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://wallup.net/wp-content/uploads/2018/03/17/540089-programmers-AutoHotkey-code-programming-laptop-ThinkPad.jpg" alt='/' />
-                                <div>
-                                    <h2 className='py-2'>Name here</h2>
-                                    <p>Full-Stack Developer</p>
-                                    <p className='py-4'>I am available for freelance or full-time position. Contact me and let's talk.</p>
-                                </div>
-                            </div> */}
-                            <Location />
-                            <div>
-                                <p className='uppercase pt-8'>Connect With Me</p>
-                                <div className='flex items-center justify-between py-4'>
-                                    
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaFacebookF className='h-5 w-5' />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaInstagram className='h-5 w-5' />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaLinkedinIn className='h-5 w-5' />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaTwitter className='h-5 w-5' />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     {/*right side... */}
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
@@ -129,6 +98,38 @@ const Contact=()=>{
                                 </div>
                                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
                             </form>
+                        </div>
+                    </div>
+                    {/*left side. */}
+                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+                        <div className='lg:p-4 h-full'>
+                            {/* <div>
+                                <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://wallup.net/wp-content/uploads/2018/03/17/540089-programmers-AutoHotkey-code-programming-laptop-ThinkPad.jpg" alt='/' />
+                                <div>
+                                    <h2 className='py-2'>Name here</h2>
+                                    <p>Full-Stack Developer</p>
+                                    <p className='py-4'>I am available for freelance or full-time position. Contact me and let's talk.</p>
+                                </div>
+                            </div> */}
+                            <Location />
+                            <div>
+                                <p className='uppercase pt-8'>Connect With Me</p>
+                                <div className='flex items-center justify-between py-4'>
+                                    
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = "https://www.facebook.com/share/171YeEd3Ja/"}>
+                                        <FaFacebookF className='h-5 w-5' />
+                                    </div>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = "https://www.instagram.com/futurenaviconcepts?utm_source=qr&igsh=dWJqNmJ3Z3Q2d3Ju"}>
+                                        <FaInstagram className='h-5 w-5' />
+                                    </div>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = "https://www.linkedin.com/in/future-navi-concepts-b04197346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
+                                        <FaLinkedinIn className='h-5 w-5' />
+                                    </div>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' onClick={() => window.location.href = "https://x.com/FN__Concepts?t=fo41DFkj_KV9fu3VW6oe_g&s=08"}>
+                                        <FaTwitter className='h-5 w-5' />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

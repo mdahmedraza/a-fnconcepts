@@ -1,7 +1,8 @@
 import ProjectItem from "./ProjectItem";
 import Image from 'next/image';
 import Link from 'next/link';
-import fb from '../assets/whatsapp.png';
+import b1 from '../assets/banner1.png';
+import b2 from '../assets/banner2.png';
 
 const Projects=()=>{
     return(
@@ -10,24 +11,16 @@ const Projects=()=>{
                 <h1 className='py-4 text-gray-700'>Our <span className='text-[#5651e5]'>Projects</span></h1>
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectItem
-                    title='facebook clone'
-                    backgroundImg={fb}
+                    title='studyoshub'
+                    backgroundImg={b1}
                     projectUrl='https://www.studyoshub.com'
+                    skill="MERN STACK"
                     />
                     <ProjectItem
-                    title='whatsapp clone'
-                    backgroundImg={fb}
-                    projectUrl='https://www.studyoshub.com'
-                    />
-                    <ProjectItem
-                    title='insta clone'
-                    backgroundImg={fb}
-                    projectUrl='https://www.studyoshub.com'
-                    />
-                    <ProjectItem
-                    title='twitter clone'
-                    backgroundImg={fb}
-                    projectUrl='https://www.studyoshub.com'
+                    title='future navi concetps'
+                    backgroundImg={b2}
+                    projectUrl='https://leverageedit.my.canva.site/fnconcepts'
+                    skill="CANVA"
                     />
                 </div>
             </div>

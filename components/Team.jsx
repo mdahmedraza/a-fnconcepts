@@ -1,26 +1,23 @@
+import Image from "next/image";
 
-import {
-  Globe,          // Website
-  Smartphone,     // App
-  Bot,            // Generative AI
-  Megaphone,      // Digital Marketing
-  Palette         // Designing & Editing
-} from "lucide-react";
+import image1 from '../assets/developer.jpg'
+import image2 from '../assets/designer.png';
+import image3 from '../assets/strategy.webp';
 
 
 const stats = [
     {
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        image: image1,
         heading: "Development Team",
         para: "Full-stack developers specializing in modern web technologies and scalable solutions."
     },
     {
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        image: image2,
         heading: "Design Team",
         para: "Creative designers focused on user experience and beautiful, functional interfaces."
     },
     {
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        image: image3,
         heading: "Strategy Team",
         para: "Digital strategists who align technology solutions with business objectives."
     },
@@ -42,7 +39,7 @@ const Team=()=>{
                         key={idx}
                         className='max-w-sm mx-auto bg-white rounded-2xl shadow-md p-6 text-center'
                         >
-                         <img
+                         <Image
         src={image}
         alt="Design Team"
         className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"

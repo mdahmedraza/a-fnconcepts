@@ -19,7 +19,7 @@ const Main=()=>{
                 <div>
                     
                     <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S BUILD SOMETHING TOGETHER</p>
-                    <h1 className='py-4 text-gray-700 max-w-[90%] m-auto'>Grow your <span className='text-[#5651e5]'>business</span> deigtally to next level online with <span className='text-[#5651e5]'>FNConcepts.</span></h1>
+                    <h1 className='py-4 text-gray-700 max-w-[90%] m-auto'>Grow your <span className='text-[#5651e5]'>business</span> deigtally to next level online with <span className='text-[#5651e5]'>FN concepts.</span></h1>
                     
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto text-[25px]'>
                         Transform your digital presence with cutting-edge web development, mobile apps, AI software, and comprehensive digital marketing strategies.
