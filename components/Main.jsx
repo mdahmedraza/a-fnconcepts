@@ -1,49 +1,148 @@
-
-import Image from 'next/image';
-
-
 import Link from 'next/link';
-
 import {
-  Code,          // Website
-  Smartphone,     // App
-  Bot,            // Generative AI
-  Megaphone,      // Digital Marketing
-  Palette         // Designing & Editing
+  Code,       
+  Smartphone,    
+  Bot,        
 } from "lucide-react";
 
-const Main=()=>{
-    return(
-        <div id='home' className="w-full h-auto text-center bg-[#E9D5FF] py-20">
-            <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-                <div>
-                    
-                    <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S BUILD SOMETHING TOGETHER</p>
-                    <h1 className='py-4 text-gray-700 max-w-[90%] m-auto'>Grow your <span className='text-[#5651e5]'>business</span> deigtally to next level online with <span className='text-[#5651e5]'>FN concepts.</span></h1>
-                    
-                    <p className='py-4 text-gray-600 max-w-[70%] m-auto text-[25px]'>
-                        Transform your digital presence with cutting-edge web development, mobile apps, AI software, and comprehensive digital marketing strategies.
-                    </p>
-                    <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <Link href='/#contact'>
-                            <Code size={40} />
-                            </Link>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <Link href='/#contact'>
-                            <Smartphone size={40} />
-                            </Link>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <Link href='/#contact'>
-                            <Bot size={40} />
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+const Main = () => {
+  return (
+    <div
+      id="home"
+      className="relative w-full h-auto text-center bg-gradient-to-br from-[#E9D5FF] to-[#C7D2FE] overflow-hidden py-20"
+    >
+      {/* Animated Falling Shapes */}
+      <div className="absolute inset-0 overflow-hidden">
+        {[...Array(10)].map((_, i) => (
+          <div
+            key={i}
+            className={`absolute w-6 h-6 rounded-full bg-[#5651e5] opacity-30 animate-fall`}
+            style={{
+              left: `${Math.random() * 100}%`,
+              animationDuration: `${4 + Math.random() * 6}s`,
+              animationDelay: `${Math.random() * 5}s`,
+            }}
+          ></div>
+        ))}
+        {[...Array(8)].map((_, i) => (
+          <div
+            key={i}
+            className={`absolute w-6 h-6 bg-[#22d3ee] opacity-30 animate-fall`}
+            style={{
+              left: `${Math.random() * 100}%`,
+              animationDuration: `${5 + Math.random() * 6}s`,
+              animationDelay: `${Math.random() * 5}s`,
+            }}
+          ></div>
+        ))}
+      </div>
+
+      {/* Content Section */}
+      <div className="relative max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div>
+          <p className="uppercase text-sm tracking-widest text-gray-600">
+            LET&apos;S BUILD SOMETHING TOGETHER
+          </p>
+          <h1 className="py-4 text-gray-700 max-w-[90%] m-auto">
+            Grow your <span className="text-[#5651e5]">business</span> digitally to next level online with{' '}
+            <span className="text-[#5651e5]">FN Concepts.</span>
+          </h1>
+
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto text-[25px]">
+            Transform your digital presence with cutting-edge web development,
+            mobile apps, AI software, and comprehensive digital marketing
+            strategies.
+          </p>
+
+          {/* Icons Section */}
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <Link href="/#contact">
+                <Code size={40} />
+              </Link>
             </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <Link href="/#contact">
+                <Smartphone size={40} />
+              </Link>
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <Link href="/#contact">
+                <Bot size={40} />
+              </Link>
+            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+
+      {/* Tailwind Custom Animation */}
+      <style jsx>{`
+        @keyframes fall {
+          0% {
+            transform: translateY(-100vh) rotate(0deg);
+          }
+          100% {
+            transform: translateY(100vh) rotate(360deg);
+          }
+        }
+        .animate-fall {
+          animation-name: fall;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+      `}</style>
+    </div>
+  );
+};
+
 export default Main;
+
+
+
+
+// import Image from 'next/image';
+
+
+// import Link from 'next/link';
+
+// import {
+//   Code,       
+//   Smartphone,    
+//   Bot,        
+// } from "lucide-react";
+
+// const Main=()=>{
+//     return(
+//         <div id='home' className="w-full h-auto text-center bg-[#E9D5FF] py-20">
+//             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+//                 <div>
+                    
+//                     <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S BUILD SOMETHING TOGETHER</p>
+//                     <h1 className='py-4 text-gray-700 max-w-[90%] m-auto'>Grow your <span className='text-[#5651e5]'>business</span> deigtally to next level online with <span className='text-[#5651e5]'>FN concepts.</span></h1>
+                    
+//                     <p className='py-4 text-gray-600 max-w-[70%] m-auto text-[25px]'>
+//                         Transform your digital presence with cutting-edge web development, mobile apps, AI software, and comprehensive digital marketing strategies.
+//                     </p>
+//                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+//                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                             <Link href='/#contact'>
+//                             <Code size={40} />
+//                             </Link>
+//                         </div>
+//                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                             <Link href='/#contact'>
+//                             <Smartphone size={40} />
+//                             </Link>
+//                         </div>
+//                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+//                             <Link href='/#contact'>
+//                             <Bot size={40} />
+//                             </Link>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+// export default Main;
