@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const stats = [
-    { count: "7+", label: "Years of experience" },
-    { count: "100+", label: "Projects" },
-    { count: "3+", label: "Global Awards" },
+    { count: "3+", label: "Years of experience" },
+    { count: "50+", label: "Projects" },
+    { count: "2+", label: "Global Awards" },
     { count: "95%", label: "Satisfaction" },
   ];
 
