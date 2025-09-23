@@ -81,7 +81,7 @@ const Client = () => {
 
                 {/* Stars */}
                 <div className="flex gap-1 mb-4 text-[#60a5fa]">
-                  {[...Array(5)].map((_, i) => (
+                  {[...Array(4)].map((_, i) => (
                     <Star key={i} size={18} fill="currentColor" stroke="none" />
                   ))}
                 </div>

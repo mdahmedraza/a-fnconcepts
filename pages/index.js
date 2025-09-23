@@ -4,6 +4,7 @@ import Main from '@/components/Main';
 import About from '../components/About';
 import Feature from '@/components/Feature';
 import Achievment from '@/components/Achievment';
+import TeamDetail from '@/components/TeamDetail';
 import Team from '@/components/Team';//
 import Client from '@/components/Client';//
 import Services from '@/components/Services';
@@ -20,6 +21,7 @@ function HomePage(){
       <About />
       <Feature />
       <Achievment />
+      <TeamDetail />
       <Team />
       <Client />
       <Services />

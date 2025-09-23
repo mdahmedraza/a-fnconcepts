@@ -64,8 +64,12 @@ const Footer = () => {
         <div className={classes.footer_content_section}>
           <h4>Investing</h4>
           <ul>
+            <Link href='/privacyPolicy'>
             <li>Privacy Policy</li>
+            </Link>
+            <Link href='/termsAndConditions'>
             <li>Terms & Conditions</li>
+            </Link>
           </ul>
         </div>
         
