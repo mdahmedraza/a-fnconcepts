@@ -10,28 +10,28 @@ const team = [
   {
     image: devImg,
     name: "Ahmed Raza",
-    role: "Full-Stack Developer",
+    role: "Senior Full-Stack Developer",
     description:
-      "Expert in MERN stack, building scalable and efficient web applications tailored to client needs.",
+      "Expert in MERN stack, React Native building scalable and efficient web applications and android application tailored to client needs.",
   },
   {
     image: designImg,
-    name: "Tripti Kumari",
-    role: "UI/UX Designer",
+    name: "Tripti Agrawal",
+    role: "Senior Designer",
     description:
       "Passionate about creating intuitive and engaging digital experiences with clean, modern design.",
   },
   {
     image: strategistImg,
     name: "Kshitij Shoundik",
-    role: "Digital Strategist",
+    role: "Digital Marketing Executive",
     description:
       "Aligns technology with business goals, helping clients leverage IT for sustainable growth.",
   },
   {
     image: supportImg,
     name: "Akshay Raj",
-    role: "Client Success Manager",
+    role: "Team Manager",
     description:
       "Dedicated to ensuring smooth communication, timely delivery, and long-term client satisfaction.",
   },

@@ -18,7 +18,7 @@ const stats = [
   },
   {
     image: image3,
-    heading: "Strategy Team",
+    heading: "Marketing Team",
     para: "Digital strategists who align technology solutions with business objectives.",
   },
 ];
