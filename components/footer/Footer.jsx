@@ -76,22 +76,22 @@ const Footer = () => {
         <div className={classes.footer_content_section}>
           <h4>Our Services</h4>
           <ul>
-            <Link href='/#skills'>
+            <Link href='/website'>
             <li>Website Development</li>
             </Link>
-            <Link href='/#skills'>
+            <Link href='/application'>
             <li>Mobile App Development</li>
             </Link>
-            <Link href='/#skills'>
+            <Link href='/ui-ux-design'>
             <li>UI/UX Design</li>
             </Link>
-            <Link href='/#skills'>
+            <Link href='/digital-marketing'>
             <li>SEO & Digital Marketing</li>
             </Link>
-            <Link href='/#skills'>
+            <Link href='/ai-solutions'>
             <li>AI Software Solutions</li>
             </Link>
-            <Link href='/#skills'>
+            <Link href='/graphic-desing'>
             <li>Graphic Design</li>
             </Link>
           </ul>

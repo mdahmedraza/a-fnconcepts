@@ -4,7 +4,7 @@ import {
   Bot,
   Megaphone,
   Palette,
-  Search,
+  PenTool,
 } from "lucide-react";
 
 import Button from "./Button";
@@ -15,36 +15,42 @@ const stats = [
     heading: "Website Development",
     para: "Custom, responsive websites built with modern technologies and cloud deployment.",
     list: ["MERN Stack", "Responsive Design", "SEO Optimized"],
+    btn: '/website'
   },
   {
     icon: <Smartphone size={32} />,
     heading: "Mobile App Development",
     para: "Native and cross-platform mobile apps for iOS and Android with seamless user experiences.",
     list: ["React Native", "Flutter", "Native iOS/Android"],
+    btn: '/application'
   },
   {
     icon: <Palette size={32} />,
     heading: "Graphic Design",
     para: "Creative visual solutions including branding, marketing materials, and digital graphics.",
     list: ["Brand Identity", "Marketing Materials", "Digital Graphics"],
+    btn: '/graphic-desing'
   },
   {
     icon: <Bot size={32} />,
     heading: "AI Software Solutions",
     para: "Cutting-edge AI and machine learning solutions to automate processes and enhance decision-making.",
     list: ["Machine Learning", "AI Automation", "Data Analytics"],
+    btn: '/ai-solutions'
   },
   {
     icon: <Megaphone size={32} />,
-    heading: "Digital Marketing",
-    para: "Data-driven SEO, SMO, and SMM strategies to boost online visibility and customer growth.",
-    list: ["SEO Optimization", "Social Media Campaigns", "PPC Ads"],
+    heading: "SEO & Digital Marketing",
+    para: "Comprehensive SEO, SMO, and SMM strategies to boost your online visibility and growth.",
+    list: ["SEO Optimization", "Social Media", "PPC Campaigns"],
+    btn: '/digital-marketing'
   },
   {
-    icon: <Search size={32} />,
-    heading: "Search Optimization",
-    para: "Advanced strategies to maximize your search rankings and organic traffic.",
-    list: ["Keyword Research", "Technical SEO", "Content Strategy"],
+    icon: <PenTool size={32} />,
+    heading: "UI/UX Design",
+    para: "Beautiful, intuitive designs that enhance user engagement and drive conversions.",
+    list: ["User Research", "Prototyping", "Design Systems"],
+    btn: '/ui-ux-desing'
   },
 ];
 
@@ -63,7 +69,7 @@ const Services = () => {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
-          {stats.map(({ icon, heading, para, list }, idx) => (
+          {stats.map(({ icon, heading, para, list, btn }, idx) => (
             <div
               key={idx}
               className="p-6 bg-[#1e293b] shadow-md rounded-2xl hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
@@ -91,7 +97,7 @@ const Services = () => {
               </ul>
 
               {/* Button */}
-              <Button />
+              <Button btn={btn} />
             </div>
           ))}
         </div>
@@ -101,6 +107,10 @@ const Services = () => {
 };
 
 export default Services;
+
+
+
+
 
 
 

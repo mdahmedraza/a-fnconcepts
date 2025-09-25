@@ -2,10 +2,10 @@ import { ArrowRight } from "lucide-react";
 
 import Link from 'next/link';
 
-export default function Button() {
+export default function Button({btn}) {
   return (
     <div className="py-6">
-      <Link href='/#contact'>
+      <Link href={btn}>
       <button className="
         w-full 
         border-2 border-blue-500 

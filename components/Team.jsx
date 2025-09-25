@@ -41,11 +41,12 @@ const Team = () => {
   return (
     <div className="w-full h-auto py-16 bg-[#0f172a]" id="team">
       <div className="max-w-[1240px] mx-auto text-center">
-        <h1 className="py-4 text-gray-200 font-bold text-3xl">
-          Meet Our <span className="text-[#5651e5]">Team</span>
+        <h1 className="text-center text-3xl sm:text-4xl font-bold text-[#ffffff]">
+          Our <span className="text-[#60a5fa]">Expert Team</span>
         </h1>
-        <p className="py-2 text-gray-400 text-lg">
-          Our passionate professionals work together to deliver innovation and excellence.
+        <p className="text-gray-400 text-center max-w-[700px] mx-auto mt-4 text-lg">
+          Meet our passionate team of developers, designers, and digital
+          strategists who bring your vision to life.
         </p>
 
         {/* Scrolling container */}
