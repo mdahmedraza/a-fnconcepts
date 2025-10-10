@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Dummy images – replace with your employees' real images
-import devImg from "../assets/m1.jpg";
+import devImg from "../assets/myimg.jpg";
 import designImg from "../assets/m2.jpg";
 import strategistImg from "../assets/m3.jpg";
 import supportImg from "../assets/m4.jpg";
