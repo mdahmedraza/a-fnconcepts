@@ -41,7 +41,7 @@ const Footer = () => {
             <li>Empowering businesses with <br />next-generation IT solutions.<br /> Your trusted partner for<br /> digital transformation.</li>
             <li style={{display: "flex", gap: "10px"}}><FaRegEnvelope color='#fff' size={20} />futurenaviconcepts@gmail.com</li>
             <li style={{display: "flex", gap: "10px"}}><IoCall color='#fff' size={20} />+91 9835829131</li>
-            <li style={{display: "flex", gap: "10px"}}><MdLocationOn color='#fff' size={20} />Ranchi, Jharkhand, India</li>
+            <li style={{display: "flex", gap: "10px"}}><MdLocationOn color='#fff' size={20} />1428, Sarhul Nagar (near Lalpur), Ranchi, Jharkhand, India</li>
           </ul>
         </div>
         <div className={classes.footer_content_section}>
