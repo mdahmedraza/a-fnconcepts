@@ -25,7 +25,7 @@ const stats = [
     btn: '/application'
   },
   {
-    icon: <Palette size={32} />,
+    icon: <PenTool size={32} />,
     heading: "Graphic Design",
     para: "Creative visual solutions including branding, marketing materials, and digital graphics.",
     list: ["Brand Identity", "Marketing Materials", "Digital Graphics"],
@@ -46,11 +46,11 @@ const stats = [
     btn: '/digital-marketing'
   },
   {
-    icon: <PenTool size={32} />,
+    icon: <Palette size={32} />,
     heading: "UI/UX Design",
     para: "Beautiful, intuitive designs that enhance user engagement and drive conversions.",
     list: ["User Research", "Prototyping", "Design Systems"],
-    btn: '/ui-ux-desing'
+    btn: '/ui-ux-design'
   },
 ];
 

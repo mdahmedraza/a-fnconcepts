@@ -115,8 +115,8 @@ const stats = [
   },
   {
     image: image3,
-    heading: "Strategy Team",
-    para: "Digital strategists who align technology solutions with business objectives.",
+    heading: "Digital Marketing Team",
+    para: "Experts who craft data-driven campaigns to boost brand visibility and engagement.",
   },
 ];
 

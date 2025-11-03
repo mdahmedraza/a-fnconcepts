@@ -64,7 +64,7 @@ const Client = () => {
             {stats.concat(stats).map(({ image, name, role, review }, idx) => (
               <div
                 key={idx}
-                className="min-w-[280px] sm:min-w-[320px] max-w-md bg-[#1e293b] text-white rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform duration-300"
+                className="min-w-[280px] sm:min-w-[320px] max-w-md bg-[#1e293b] text-white rounded-md shadow-lg p-6 hover:scale-105 transition-transform duration-300"
               >
                 {/* Client Info */}
                 <div className="flex items-center gap-4 mb-4">
@@ -98,6 +98,28 @@ const Client = () => {
 
       {/* Animation CSS */}
       <style jsx>{`
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll {
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+  }
+
+  /* 🔹 Pause scrolling when any card is hovered */
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
+`}</style>
+
+      {/* <style jsx>{`
         @keyframes scroll {
           0% {
             transform: translateX(0);
@@ -111,7 +133,7 @@ const Client = () => {
           width: max-content;
           animation: scroll 30s linear infinite;
         }
-      `}</style>
+      `}</style> */}
     </div>
   );
 };
