@@ -18,6 +18,10 @@ import Footer from '@/components/footer/Footer';
 function HomePage(){
   return(
     <>
+      <Head>
+        <title>Future Navi Concepts | Digital Marketing & IT Solutions</title>
+        <meta name="description" content="Founded in 2025, Future Navi Concepts is a Digital Marketing & IT Solutions Agency, dedicated to providing advanced technology solutions that empower businesses to thrive in the digital age." />
+      </Head>
       <Navbar />
       <Main />
       <About />
