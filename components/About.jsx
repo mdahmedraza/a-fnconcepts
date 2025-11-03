@@ -11,7 +11,7 @@ const About = () => {
             About <span className="text-[#60a5fa]">FN Concepts</span>
           </h1>
           <p className="py-2 text-gray-300 text-lg sm:text-xl">
-            Founded in 2025, <span className="text-[#a78bfa] font-semibold">FN Concepts</span> is a
+            Founded in 2025, <span className="text-[#a78bfa] font-semibold">Future Navi Concepts</span> is a
             Digital Marketing & IT Solutions Agency, dedicated to providing
             advanced technology solutions that empower businesses to thrive in
             the digital age.
