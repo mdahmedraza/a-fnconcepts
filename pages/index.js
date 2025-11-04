@@ -33,7 +33,7 @@ function HomePage(){
       <Services />
       <Partners />
       <Projects />
-      {/* <Partner /> */}
+      <Partner />
       <Contact />
       <Footer />
     </>
