@@ -12,6 +12,7 @@ import Client from '@/components/Client';//
 import Services from '@/components/Services';
 import Partners from '@/components/Partners';//
 import Projects from '../components/Projects';
+import Partner from '@/components/Partner';
 import Contact from '@/components/Contact';
 import Footer from '@/components/footer/Footer';
 
@@ -32,6 +33,7 @@ function HomePage(){
       <Services />
       <Partners />
       <Projects />
+      {/* <Partner /> */}
       <Contact />
       <Footer />
     </>

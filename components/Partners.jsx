@@ -3,7 +3,7 @@ import p1 from "../assets/p1.jpg";
 import p2 from "../assets/p2.jpg";
 import p3 from "../assets/p3.jpg";
 import p4 from "../assets/p4.jpg";
-import c1 from "../assets/c1.png";
+import c1 from "../assets/ragsons.jpg";
 import c2 from "../assets/c2.png";
 import c3 from "../assets/c3.jpg";
 import c4 from "../assets/c4.png";
