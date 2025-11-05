@@ -15,10 +15,11 @@ import Projects from '../components/Projects';
 import Partner from '@/components/Partner';
 import Contact from '@/components/Contact';
 import Footer from '@/components/footer/Footer';
+import ChatWidget from '@/components/ChatWidget';
 
 function HomePage(){
   return(
-    <>
+    <div className="relative">
       <Head>
         <title>Future Navi Concepts | Digital Marketing & IT Solutions</title>
         <meta name="description" content="Founded in 2025, Future Navi Concepts is a Digital Marketing & IT Solutions Agency, dedicated to providing advanced technology solutions that empower businesses to thrive in the digital age." />
@@ -36,7 +37,8 @@ function HomePage(){
       <Partner />
       <Contact />
       <Footer />
-    </>
+      <ChatWidget />
+    </div>
   )
 }
 export default HomePage;
