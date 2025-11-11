@@ -17,28 +17,30 @@ const Main = () => {
         { type: "icon", icon: <Smartphone size={40} className="text-[#a78bfa]" /> },
         { type: "icon", icon: <Bot size={40} className="text-[#34d399]" /> },
       ],
+
     },
     {
       id: 2,
       type: "image",
       bg: "https://zeetechlabs.com/wp-content/uploads/sites/320/2021/12/Banner-Marketing-Connecticut-1.jpeg",
-      top: "TRANSFORM YOUR IDEAS",
-      center: "Smart, Scalable & Stunning Software Solutions.",
+      top: "Welcome to Spireleap Innovations.",
+      center: "Seamless IT Infrastructure",
       bottom:
-        "From concept to deployment, we engineer experiences that redefine digital success.",
+        "A robust IT infrastructure is the backbone of any successful business. We design, implement, and manage networks, servers, and storage solutions to keep your business running smoothly.",
       buttons: [
         { type: "text", text: "Our Work" },
         { type: "text", text: "Get Started" },
       ],
+
     },
     {
       id: 3,
       type: "image",
       bg: "https://d1ub0o53i85pdh.cloudfront.net/uploads/2021/09/Facebook-Linkedin-image-template-10.jpg",
-      top: "EMPOWER YOUR BUSINESS",
-      center: "Next-Gen AI & Web Technologies at Your Fingertips.",
+      top: "Welcome to Spireleap Innovations.",
+      center: "Experience Excellence in IT Services",
       bottom:
-        "We help you stay ahead with intelligent automation, smart designs, and robust engineering.",
+        "Discover the true potential of your business with our comprehensive IT services. Partner with us today to elevate your technology infrastructure and fuel your growth.",
       buttons: [
         { type: "text", text: "Learn More" },
         { type: "text", text: "Contact Us" },
@@ -227,6 +229,7 @@ const Main = () => {
                     </button>
                   )
                 )}
+
               </div>
             </div>
           </div>
@@ -234,20 +237,21 @@ const Main = () => {
       })}
 
       {/* Left arrow - ensure high z and pointer events */}
-      <button
+      {/* <button
         onClick={goPrev}
         className="absolute left-6 md:left-10 top-1/2 -translate-y-1/2 z-50 p-3 md:p-4 bg-[#1e293b]/80 hover:bg-[#1e293b] rounded-full text-white shadow-lg shadow-[#5651e5]/40 transition-all hover:scale-110 pointer-events-auto"
+
       >
         <ChevronLeft size={32} className="text-[#60a5fa]" />
-      </button>
+      </button> */}
 
       {/* Right arrow */}
-      <button
+      {/* <button
         onClick={goNext}
         className="absolute right-6 md:right-10 top-1/2 -translate-y-1/2 z-50 p-3 md:p-4 bg-[#1e293b]/80 hover:bg-[#1e293b] rounded-full text-white shadow-lg shadow-[#5651e5]/40 transition-all hover:scale-110 pointer-events-auto"
       >
         <ChevronRight size={32} className="text-[#60a5fa]" />
-      </button>
+      </button> */}
 
       {/* dots (optional) */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-50 flex gap-3 pointer-events-auto">
