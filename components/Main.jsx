@@ -28,8 +28,8 @@ const Main = () => {
       bottom:
         "A robust IT infrastructure is the backbone of any successful business. We design, implement, and manage networks, servers, and storage solutions to keep your business running smoothly.",
       buttons: [
-        { type: "text", text: "Our Work" },
         { type: "text", text: "Get Started" },
+        // { type: "text", text: "Get Started" },
       ],
 
     },
@@ -42,8 +42,8 @@ const Main = () => {
       bottom:
         "Discover the true potential of your business with our comprehensive IT services. Partner with us today to elevate your technology infrastructure and fuel your growth.",
       buttons: [
-        { type: "text", text: "Learn More" },
-        { type: "text", text: "Contact Us" },
+        { type: "text", text: "Get Started" },
+        // { type: "text", text: "Contact Us" },
       ],
     },
   ];
@@ -210,9 +210,11 @@ const Main = () => {
                       key={bi}
                       className="rounded-full shadow-lg shadow-[#5651e5]/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#1e293b]/80"
                     >
-                      <Link href="/#contact">{btn.icon}</Link>
+                      <Link href="">{btn.icon}</Link>
+                      {/* <Link href="/#contact">{btn.icon}</Link> */}
                     </div>
                   ) : (
+                    <Link href="/#contact">
                     <button
                       key={bi}
                       className={`px-6 py-3 rounded-full bg-[#1e293b]/80 text-gray-100 border border-[#5651e5]/30 shadow-lg shadow-[#5651e5]/40 transition-all duration-700 hover:scale-105 ${
@@ -227,6 +229,7 @@ const Main = () => {
                     >
                       {btn.text}
                     </button>
+                    </Link>
                   )
                 )}
 
