@@ -1,5 +1,5 @@
 import { Star } from "lucide-react";
-import client1 from '../assets/client1.png';
+import client1 from '../assets/erp.webp';
 import Image from "next/image";
 
 const stats = [

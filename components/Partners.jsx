@@ -6,7 +6,7 @@ import p4 from "../assets/p4.jpg";
 import c1 from "../assets/ragsons.jpg";
 import c2 from "../assets/c2.png";
 import c3 from "../assets/c3.jpg";
-import c4 from "../assets/c4.png";
+import c4 from "../assets/shristi.png";
 
 const Partners = ({ head }) => {
   return (
